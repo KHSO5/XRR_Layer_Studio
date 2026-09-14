@@ -1,0 +1,34 @@
+// UTF-8 resource script.
+#pragma code_page(65001)
+
+1 ICON "resources/app.ico"
+1 24 "resources/app.manifest"
+
+1 VERSIONINFO
+ FILEVERSION 2,5,1,0
+ PRODUCTVERSION 2,5,1,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "XRR Layer Studio"
+            VALUE "FileDescription", "Bruker XRR preview, FFT, simulation, and Genetic Algorithm fitting"
+            VALUE "FileVersion", "2.5.1"
+            VALUE "InternalName", "XRR_Layer_Studio_CPP"
+            VALUE "LegalCopyright", "Copyright (c) 2026 @KHSO5. All rights reserved."
+            VALUE "OriginalFilename", "XRR_Layer_Studio_CPP_v2.5.1.exe"
+            VALUE "ProductName", "XRR Layer Studio"
+            VALUE "ProductVersion", "2.5.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
